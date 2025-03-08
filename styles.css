@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, h1 {
+    text-align: center;
+    margin: 25px 0 0 0;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+h2{
+    margin: 10px 0 0 0;
+}
+
+hr {
+    margin: 10px 30% 0 30%;
+    color: red;
+
+}
+
+p {
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbarlinks p:hover {
+    color: red;
+    box-shadow: 5px;
+}
+
+iframe {
+    box-sizing: content-box;
+    border: 2px solid red;
+    border-radius: 10px;
+    border-style: ridge;
+    display: inline-block;
+    margin: 50px 5px 0 5px;
+}
